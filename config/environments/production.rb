@@ -67,4 +67,13 @@ Omrails::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
   # In production, :host should be set to the actual host of your application.
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => "OneMonthRailsDemo",
+    :access_key_id => "AKIAJQPOPCB4LL2YQ2JQ",
+    :secret_access_key => "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"
+  }
+}
 end
