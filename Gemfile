@@ -7,6 +7,7 @@ gem 'simple_form'
 gem "paperclip", "~> 3.0"
 gem 'aws-sdk'
 gem 'aws-s3'
+gem 'rails_12factor'
 
 group :production do
 	gem 'pg'
