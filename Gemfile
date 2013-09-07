@@ -7,7 +7,7 @@ gem 'simple_form'
 gem "paperclip", "~> 3.0"
 gem 'aws-sdk'
 gem 'aws-s3'
-gem 'rails_12factor'
+gem 'twitter-bootstrap-rails'
 
 group :production do
 	gem 'pg'
